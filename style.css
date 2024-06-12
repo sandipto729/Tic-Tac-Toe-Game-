@@ -78,24 +78,16 @@ background: -webkit-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197,
 }
 .winner{
     position: relative;
-    margin-left: 42%;
+   
 }
 
-#xwinner, #owinner{
+#xwinner, #owinner,#draw{
+    width: 100vw;
     position: absolute;
     top: 2rem;
-    left: 42%;
-    right: 0;
+    text-align:center;
     margin: auto;
     font-size: 2rem;
     visibility: hidden;
 }
-#draw{
-    position: absolute;
-    top: 2rem;
-    left: 43%;
-    right: 0;
-    margin: auto;
-    font-size: 2rem;
-    visibility: hidden;
-}
+
