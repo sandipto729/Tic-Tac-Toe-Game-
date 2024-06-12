@@ -15,10 +15,12 @@ box.forEach((box) => {
     box.addEventListener("click", () => {
         if (box.innerHTML === "") {
             if (turn0) {
-                box.innerHTML = "X";
+                box.innerText = "X";
+                box.style.color = "black";
                 turn0 = false;
             } else {
-                box.innerHTML = "O";
+                box.innerText = "O";
+                box.style.color = "red";
                 turn0 = true;
             }
             box.disabled = true;
